@@ -1,0 +1,183 @@
+main{
+    background-color: rgb(241, 241, 241);
+    justify-content: space-between;
+}
+@media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+  }
+#boxtitulo{
+    text-align: start;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+h1{
+    font-family: "Pattaya", sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+    font-style: normal;
+    margin-bottom: 5px ;
+    color: rgb(0, 4, 255);
+}
+h2{
+    color: rgb(17, 17, 17);
+    padding: 0% 5%;
+    font-weight: bold;
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+h4{
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+h5{
+    color: rgb(255, 255, 255);
+    padding: 0% 5%;
+    font-weight: bold;
+    font-size: 35px;
+}
+body{
+    background-color: rgb(214, 214, 214);
+}
+p{
+    text-align: start;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 1% 5%;
+}
+hr{ 
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 1px solid rgb(197, 194, 1);
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: black;
+    padding: 1% 1%;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 170, 212);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 85%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+.menu a{
+    padding: 2% 2%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: rgb(255, 145, 0);
+}
+#boxingreso{
+    background-color: rgb(255, 145, 0);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+#boton_naranja{
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 25px;
+    padding: 5% 10%;
+    margin: 1% 1%;
+    border-radius: 20px;
+}
+#boton_azul{
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-size: 25px;
+    padding: 5% 10%;
+    margin: 1% 1%;
+    border-radius: 20px;
+}
+#boxregistra{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 12%;
+    text-align: center;
+    height: 100px;
+}
+.fa-solid{
+    padding-left: 1%;
+    padding-right: 2%;
+}
+.icono-registro{
+    height: 200px;
+}
+#boxiconoregistro{
+    text-align: center;
+    margin: 0% 1%;
+    padding: 0% 1%;
+}
+#boxingreso2{
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    height: 650px; 
+}
+#letra_negra1{
+    color: rgb(0, 0, 0);
+    font-size: 25px;    
+}
+#letra_negra1{
+    color: rgb(0, 0, 0);
+    font-size: 20px;    
+}
+#cuadro{
+    border: solid 1px;
+    height: 300%;
+    margin: 1% 1%;
+}
+.icono-redes{
+    color: rgb(0, 255, 21);
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+.icono-foot{
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    margin-bottom: 2%;
+}
